@@ -1,0 +1,18 @@
+name: curve_quickstart
+plugins:
+  - name: alchemy
+  - name: foundry
+  - name: etherscan
+
+ethereum:
+  default_network: mainnet-fork
+  mainnet_fork:
+    default_provider: foundry
+    transaction_acceptance_timeout: 600
+foundry:
+  fork:
+    ethereum:
+      mainnet:
+        upstream_provider: alchemy
+
+

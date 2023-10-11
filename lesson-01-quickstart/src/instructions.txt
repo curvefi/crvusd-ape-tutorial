@@ -1,0 +1,6 @@
+virtualenv ape-venv
+source ape-venv/bin/activate
+pip install eth-ape
+ape init
+ape plugins install .
+ape run scripts/crvusd_price.py
