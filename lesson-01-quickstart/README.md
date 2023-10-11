@@ -10,6 +10,11 @@ Getting the right mix of plugins is sometimes tricky for new users.  The quickst
 
 ## Instructions
 
+Like the Brownie tutorial, our quickstart guide presumes you have already registered for an API key with [Alchemy](https://www.alchemy.com/) and [Etherscan](https://etherscan.io/) and set this up in your environment variables.  If you haven't done this previously, register for keys and store these using the following commands.
+
+    export ETHERSCAN_TOKEN=<your_token>
+    export WEB3_ALCHEMY_PROJECT_ID=<your_token>
+
 First, create a virtual environment within your working directory
 
     virtualenv ape-venv
