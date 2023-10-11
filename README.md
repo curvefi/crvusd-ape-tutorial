@@ -24,7 +24,7 @@ The series will be released periodically, so make sure to bookmark this reposito
  * [Ape Docs](https://docs.apeworx.io/)
  * [Ape Framework Academy](https://academy.apeworx.io/)
  * [Porting a Project from Brownie to Ape](https://academy.apeworx.io/articles/porting-brownie-to-ape)
- * [ApeWorX: The New Python Framework on the Block](https://blog.chain.link/apeworx-python-vyper/)A
+ * [ApeWorX: The New Python Framework on the Block](https://blog.chain.link/apeworx-python-vyper/)
 
 **Video**
  * [How to Use Ape Framework and Installation](https://www.youtube.com/watch?v=GOWjaavBUfQ)
