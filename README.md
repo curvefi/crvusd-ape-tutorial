@@ -15,6 +15,7 @@ The series will be released periodically, so make sure to bookmark this reposito
 ## Main Series
 
 * [Lesson 1: Quickstart](lesson-01-quickstart/)
+* [Lesson 2: Peg Keepers](lesson-02-pegkeepers/)
 
 
 ## More Links

@@ -1,0 +1,9 @@
+4c3
+< from ape import Contract, accounts
+---
+> from brownie import Contract, accounts
+28,29c27
+<         user = accounts.test_accounts[0]
+<         transaction = best_addr.update(sender=user)
+---
+>         transaction = best_addr.update({"from": accounts[0]})
