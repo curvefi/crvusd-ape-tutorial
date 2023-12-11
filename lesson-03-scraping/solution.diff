@@ -1,0 +1,10 @@
+9a10
+> from ape.logging import logger as ape_logger
+21c22
+< # XXX
+---
+> ape_logger.set_level(logging.CRITICAL)
+35c36
+<     end_block = # XXX
+---
+>     end_block = chain.blocks.height
