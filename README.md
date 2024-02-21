@@ -18,6 +18,7 @@ The series will be released periodically, so make sure to bookmark this reposito
 * [Lesson 2: Peg Keepers](lesson-02-pegkeepers/)
 * [Lesson 3: Scrape Framework](lesson-03-scraping/)
 * [Lesson 4: Sophisticated Voter](lesson-04-hexcode/)
+* [Lesson 5: Command Line Interface](lesson-05-cli/)
 
 ## More Links
 
