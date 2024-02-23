@@ -1,0 +1,41 @@
+name: curve-stablecoin
+
+plugins:
+  - name: vyper
+  - name: alchemy
+  - name: hardhat
+  - name: ledger
+  - name: etherscan
+
+ethereum:
+  default_network: mainnet-fork
+  mainnet_fork:
+    default_provider: hardhat
+    transaction_acceptance_timeout: 99999999
+  mainnet:
+    transaction_acceptance_timeout: 99999999
+
+polygon:
+  mainnet_fork:
+    gas_limit: max
+
+hardhat:
+  port: auto
+  fork:
+    ethereum:
+      mainnet:
+        upstream_provider: alchemy
+        enable_hardhat_deployments: true
+    polygon:
+      mainnet:
+        upstream_provider: infura
+
+
+geth:
+  ethereum:
+    mainnet:
+      uri: http://localhost:9090
+
+test:
+  mnemonic: test test test test test test test test test test test junk
+  number_of_accounts: 5

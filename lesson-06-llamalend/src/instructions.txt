@@ -1,0 +1,10 @@
+ape plugins install polygon 
+export POLYGONSCAN_API_KEY=<your_key>
+
+git clone git@github.com:curvefi/curve-stablecoin.git
+git fetch --all
+git checkout -b lending origin/lending
+
+pip install vyper==0.3.10
+
+
